@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #38bdf8;
+    font-size: 42px;
+}
+
+h2 {
+    color: #38bdf8;
+}
+
+body>h1,
+body>p {
+    margin-left: 30px;
+}
+
+section {
+    padding: 30px;
+}
+
+a {
+    color: #38bdf8;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span,
+.project-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.project-card {
+    max-width: 500px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: #1e293b;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    color: white;
+}
+
+.hero .intro {
+    color: #38bdf8;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.btn {
+    display: inline-block;
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 12px 22px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: white;
+}
+
+.btn.secondary {
+    background: transparent;
+    color: #38bdf8;
+    border: 1px solid #38bdf8;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+}
+
+#taskInput {
+    padding: 10px;
+    width: 60%;
+    max-width: 250px;
+    border-radius: 6px;
+    border: 1px solid #38bdf8;
+}
+
+.project-card button {
+    padding: 10px 14px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#taskList li {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+    padding: 10px;
+    background: #1e293b;
+    border-radius: 8px;
+}
+
+#taskList span {
+    cursor: pointer;
+}
+
+#taskList span.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+#taskList button {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+
+<body>
+    <nav class="navbar">
+        <h2>Sagar.dev</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <h1>Welcome to My Portfolio</h1>
+
+    <section class="hero">
+        <p class="intro">HELLO, I'M</p>
+        <h1>Sagar Chahal</h1>
+        <h2>Frontend Developer</h2>
+
+        <p>
+            I am a B.Tech CSE graduate passionate about building modern and responsive websites.
+        </p>
+
+        <a href="#projects" class="btn">View My Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+
+        <a href="resume.pdf" class="btn" download>
+            Download My Resume
+        </a>
+
+    </section>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a quick learner and enjoy building websites. I am looking for opportunities in web development.</p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Git & GitHub</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>A website to showcase my skills and projects.</p>
+        </div>
+        <div class="project-card">
+            <h3>My To-Do List App</h3>
+            <p>Add tasks and mark them as completed.</p>
+
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <button onclick="addTask()">Add Task</button>
+
+            <ul id="taskList"></ul>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: Add your email address here</p>
+    </section>
+
+
+
+
+</body>
+
+</html>
